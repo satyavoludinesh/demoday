@@ -1,0 +1,26 @@
+---
+title: "Comparison of Chess Computer Development Throughout the Years"
+
+execute: 
+  echo: false
+---
+
+Chess has
+
+```{r}
+#| message: false
+library(tidyverse)
+library(bigchess)
+```
+
+```{r}
+#| message: false
+computer1 <- read.pgn("pgn files/deep_fritz.pgn")
+computer2 <- read.pgn("pgn files/dragon_by_komodo.pgn")
+computer3 <- read.pgn("pgn files/rybka.pgn")
+computer4 <- read.pgn("pgn files/stockfish.pgn")
+
+
+
+```
+
